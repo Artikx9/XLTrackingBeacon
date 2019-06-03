@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources tools:ignore="MissingTranslation" xmlns:tools="http://schemas.android.com/tools">
+    <integer name="def_port">4448</integer>
+    <string name="def_server" translatable="false">77.244.216.154</string>
+    <integer name="def_time_reg_data">20</integer>
+    <integer name="def_time_send_data">60</integer>
+    <integer name="def_min_distance_provider">30</integer>
+</resources>

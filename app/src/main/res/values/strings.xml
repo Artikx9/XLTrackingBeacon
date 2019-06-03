@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">XLTracking Beacon</string>
+    <string name="tab_settings">Settings</string>
+    <string name="tab_status">Status</string>
+    <string name="tab_connection">Connection</string>
+
+    <string name="general">General</string>
+    <string name="server">Server:</string>
+    <string name="port">Port:</string>
+    <string name="time_reg_data">Period registration data,sec.:</string>
+    <string name="time_send_data">Period sending data,sec.:</string>
+    <string name="min_distance_provider">Min distance:</string>
+    <string name="min_distance_provider_summary">Min distance between location updates, in meters.</string>
+    <string name="gps_and_wifi">Use gps + wi-fi</string>
+    <string name="sending_without_gps">Sending without GPS fix</string>
+    <string name="send_without_gps_summary">Send data in the absence of coordinates</string>
+    <string name="data_list">Data list</string>
+    <string name="list_latitude_longitude">Latitude,Longitude</string>
+    <string name="list_angle">Angle</string>
+    <string name="list_speed">Speed</string>
+    <string name="list_satellites">Satellites</string>
+    <string name="list_loc_area_code">Location area code,Cell ID</string>
+    <string name="list_gsm_signal_quality">GSM signal quality</string>
+    <string name="list_operator_code">Operator code</string>
+    <string name="list_altitude">Altitude</string>
+    <string name="list_battery">Battery charge</string>
+    <string name="additional">Additional settings</string>
+    <string name="block_password_setting_summary">Block password change settings</string>
+    <string name="block_password_setting">Set password</string>
+
+    <string name="password_dialog_textView">Enter the password:</string>
+    <string name="title_dialog_preference">Invalid parameter value.</string>
+    <string name="text_dialog_preference">Enter the correct value for the parameter (number).</string>
+    <string name="title_location_permission">Request Permission</string>
+    <string name="text_location_permission">For the correct operation of the program you need permissions.</string>
+    <string name="title_enable_gps">Geolocation not enabled.</string>
+    <string name="text_enable_gps">To improve the accuracy of the program, enable geolocation.</string>
+    <string name="wrong_data">Wrong data</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="ticker_text">Xltracker is start</string>
+    <string name="notification_title">Xltracker is active</string>
+    <string name="notification_message">Click to go to the app</string>
+    <string name="notification_ticker_task_bd">Caution!Database limit exceeded.</string>
+    <string name="notification_title_task_bd">"Limit is exceeded "</string>
+    <string name="notification_message_task_bd">The number of records in the database has been reached</string>
+    <string name="notification_ticker_task_server_internet">Caution!No internet.</string>
+    <string name="notification_title_task_server_internet">No internet.</string>
+    <string name="notification_message_task_server_internet">To send data, turn on the Internet.</string>
+    <string name="notification_ticker_task_server_imei">Caution!Unregistered IMEI.</string>
+    <string name="notification_title_task_server_imei">Unregistered IMEI.</string>
+    <string name="notification_message_task_server_imei">Please contact support.</string>
+    <string name="notification_title_task_server_connect">No connection to the server.</string>
+    <string name="notification_ticker_task_server_connect">Caution!No connection to the server.</string>
+    <string name="notification_message_task_server_connect">Check the settings, or contact support.</string>
+    <string name="notification_title_enable_gps">Geolocation not enabled.</string>
+    <string name="notification_ticker_enable_gps">Caution!</string>
+    <string name="notification_message_enable_gps">To improve the accuracy of the program, enable geolocation.</string>
+
+    <string name="alert_connection_true">Device Registered</string>
+    <string name="alert_connection_false">Registration error</string>
+    <string name="alert_connection_true_text">The data will soon appear in your account on the XLTracking website or in the XLTracking mobile app.</string>
+    <string name="alert_connection_false_text">Invalid code, re-scan the QR code, or re-enter the code.</string>
+    <string name="alert_disconnect">Are you sure you want to disable the object?</string>
+    <string name="alert_disconnect_text">After disconnection, the XLTracking service administrator will receive a notification. The application will stop sending data to the server.</string>
+
+    <string name="value_qr_code">QR code value</string>
+    <string name="btn_scan">Scan QR</string>
+    <string name="btn_connect">Connect</string>
+    <string name="btn_disconnect">Disconnect</string>
+    <string name="edt_scan_hint">Enter value</string>
+    <string name="text_guid_one">1. Add a new object in the office on the XLTracking website, or via the mobile application and go through moderation.</string>
+    <string name="text_guid_two">2. Click the Connect button and scan the QR code, or enter the code manually. The code and QR code, you will find in the menu of the object you added, on the XLTracking website, or through a mobile application.</string>
+    <string name="text_state">State: </string>
+    <string name="status_no">No connected</string>
+    <string name="status_yes">Connected</string>
+    <string name="status_code">Code: </string>
+    <string name="status_speed">Speed: </string>
+    <string name="status_satellites">Number of satellites: </string>
+</resources>

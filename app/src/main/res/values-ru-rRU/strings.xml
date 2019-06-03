@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">XLTracking Beacon</string>
+    <string name="tab_settings">Настройки</string>
+    <string name="tab_status">Статус</string>
+    <string name="tab_connection">Подключить</string>
+
+    <string name="general">Общие</string>
+    <string name="port">Порт:</string>
+    <string name="server">Сервер:</string>
+    <string name="time_reg_data">Период регистрации данных,сек.:</string>
+    <string name="time_send_data">Период отправки данных,сек.:</string>
+    <string name="min_distance_provider">Мин. дистанция:</string>
+    <string name="min_distance_provider_summary">Мин. дистанция для обновления местоположения,в метрах.</string>
+    <string name="gps_and_wifi">Использовать gps + интернет</string>
+    <string name="sending_without_gps">Отправка без GPS fix</string>
+    <string name="send_without_gps_summary">Отправлять данные при отсутствии координат</string>
+    <string name="data_list">Список данных</string>
+    <string name="list_altitude">Высота над уровнем моря</string>
+    <string name="list_angle">Угол</string>
+    <string name="list_gsm_signal_quality">Качество сигнала GSM</string>
+    <string name="list_latitude_longitude">Широта,долгота</string>
+    <string name="list_loc_area_code">Код зоны расположения,координаты базовой станции</string>
+    <string name="list_operator_code">Код оператора</string>
+    <string name="list_satellites">Спутники</string>
+    <string name="list_speed">Скорость</string>
+    <string name="list_battery">Заряд батареи</string>
+    <string name="additional">Дополнительные настройки</string>
+    <string name="block_password_setting_summary">Заблокировать паролем изменение настроек</string>
+    <string name="block_password_setting">Установка пароля</string>
+
+    <string name="password_dialog_textView">Введите пароль:</string>
+    <string name="title_dialog_preference">Некорректное значение параметра.</string>
+    <string name="text_dialog_preference">Введите корректное значение параметра (число).</string>
+    <string name="text_location_permission">Для правильной работы программы нужны эти разрешения.</string>
+    <string name="title_location_permission">Запрос разрешений</string>
+    <string name="title_enable_gps">Не включена геолокация.</string>
+    <string name="text_enable_gps">Для улучшения точности программы включите геолокацию.</string>
+    <string name="wrong_data">Неверные данные</string>
+    <string name="ok">Ок</string>
+    <string name="cancel">Отмена</string>
+
+    <string name="alert_connection_true">Устройство зарегистрировано</string>
+    <string name="alert_connection_false">Ошибка регистрации</string>
+    <string name="alert_connection_true_text">Данные скоро появятся в личном кабинете на сайте XLTracking или в мобильном приложении XLTracking.</string>
+    <string name="alert_connection_false_text">Неверный код, просканируйте QR код заново, или введите код повторно.</string>
+    <string name="alert_disconnect">Вы уверены что хотите отключить объект?</string>
+    <string name="alert_disconnect_text">После отключения администратор сервиса XLTracking получит уведомление. Приложение перестанет присылать данные на сервер.</string>
+
+    <string name="ticker_text">Запуск Xltracker</string>
+    <string name="notification_title">Xltracker активен</string>
+    <string name="notification_message">Нажмите, чтобы перейти в приложение</string>
+    <string name="notification_message_task_bd">Достигнут лимит количества записей в базе данных</string>
+    <string name="notification_ticker_task_bd">Внимание!Превышен лимит БД.</string>
+    <string name="notification_title_task_bd">Превышен лимит</string>
+    <string name="notification_ticker_task_server_internet">Внимание!Нет интернета.</string>
+    <string name="notification_title_task_server_internet">Нет интернета.</string>
+    <string name="notification_message_task_server_internet">Для отправки данных включите интернет.</string>
+    <string name="notification_ticker_task_server_imei">Внимание!Не зарегистрирован IMEI.</string>
+    <string name="notification_title_task_server_imei">Не зарегистрирован IMEI.</string>
+    <string name="notification_message_task_server_imei">Обратитесь в службу поддержки.</string>
+    <string name="notification_message_task_server_connect">Проверьте настройки или обратитесь в службу поддержки.</string>
+    <string name="notification_title_task_server_connect">Нет связи с сервером.</string>
+    <string name="notification_ticker_task_server_connect">Внимание!Нет связи с сервером.</string>
+    <string name="notification_ticker_enable_gps">Внимание!</string>
+    <string name="notification_message_enable_gps">Для улучшения точности программы включите геолокацию.</string>
+    <string name="notification_title_enable_gps">Не включена геолокация.</string>
+
+    <string name="value_qr_code">Значение QR кода</string>
+    <string name="btn_scan">Сканировать QR</string>
+    <string name="btn_connect">Подключить</string>
+    <string name="btn_disconnect">Отключить</string>
+    <string name="edt_scan_hint">Введите значение</string>
+    <string name="text_guid_one">1. Добавьте новый объект в кабинете на сайте XLTracking, или через мобильное приложение и пройдите модерацию.</string>
+    <string name="text_guid_two">2. Нажмите кнопку Подключить и просканируйте QR код, или введите код вручную. Код и QR код, вы найдете в меню добавленного Вами объекта, на сайте XLTracking, или через мобильное приложение.</string>
+    <string name="text_state">Состояние: </string>
+    <string name="status_no">Не подключено</string>
+    <string name="status_yes">Подключено</string>
+    <string name="status_code">Код: </string>
+    <string name="status_speed">Скорость: </string>
+    <string name="status_satellites">Кол-во спутников: </string>
+</resources>

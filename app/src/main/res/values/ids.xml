@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="key_port" type="string" translatable="false">key_port</item>
+    <item name="key_server" type="string" translatable="false">key_server</item>
+    <item name="key_reg_data" type="string" translatable="false">key_reg_data</item>
+    <item name="key_send_data" type="string" translatable="false">key_send_data</item>
+    <item name="key_altitude" type="string" translatable="false">key_altitude</item>
+    <item name="key_speed" type="string" translatable="false">key_speed</item>
+    <item name="key_satellites" type="string" translatable="false">key_satellites</item>
+    <item name="key_loc_area_code" type="string" translatable="false">key_loc_area_code</item>
+    <item name="key_gsm_signal" type="string" translatable="false">key_gsm_signal</item>
+    <item name="key_operator_code" type="string" translatable="false">key_operator_code</item>
+    <item name="key_angle" type="string" translatable="false">key_angle</item>
+    <item name="key_latitude" type="string" translatable="false">key_latitude</item>
+    <item name="key_use_gps_and_wifi" type="string" translatable="false">key_use_gps_and_wifi</item>
+    <item name="key_battery" type="string" translatable="false">key_battery</item>
+    <item name="key_min_distance_provider" type="string" translatable="false">min_distance</item>
+
+    <item name="key_tracking_service" type="string" translatable="false">20061987</item>
+    <item name="key_notification_task_bd" type="string" translatable="false">20198706</item>
+    <item name="key_notification_task_server" type="string" translatable="false">19872006</item>
+    <item name="key_notification_enable_gps" type="string" translatable="false">27102017</item>
+    <item name="key_listView_main" type="string" translatable="false">key_listView_main</item>
+
+    <item name="key_send_without_gps" type="string" translatable="false">key_send_without_gps</item>
+    <item name="key_block_password_setting" type="string" translatable="false">key_block_password_setting</item>
+</resources>
